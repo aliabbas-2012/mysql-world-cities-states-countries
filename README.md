@@ -1,11 +1,13 @@
-# countries_state_city.sql
-Countries, City , State in postgres sql dump 
+# mysql-world-cities-states-countries
 
-There are three files here one is ⋅⋅⋅
-  1. Countres.sql ⋅⋅⋅
-  2. State.sql  ⋅⋅⋅
-  3. Cities.sql ⋅⋅⋅
+A complete SQL dump of **countries, states, and cities** for **MySQL**, with all relationships handled via foreign keys.
 
-Relationships are managed in sql dump , its only for Postgres  ⋅⋅⋅
+This set includes three files:
 
-Enjoy the life
+1. `countries.sql` – Master list of countries  
+2. `states.sql` – States/regions linked to countries  
+3. `cities.sql` – Cities linked to states (and indirectly to countries)
+
+All tables are designed for MySQL and preserve proper relational integrity.
+
+Enjoy 🙂  
